@@ -1,4 +1,4 @@
-import fitty from 'fittys';
+import fitty from 'fitty';
 console.log(fitty);
 console.log(JSON.stringify(fitty));
 console.log();

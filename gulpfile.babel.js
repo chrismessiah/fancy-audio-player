@@ -73,12 +73,6 @@ gulp.task('javascript', function () {
   .pipe(buffer())
   .pipe(sourcemaps.init({loadMaps: true}))
   .pipe(uglify())
-  // .on('error', function(e) {
-  //   notify(e);
-  //   // console.log(e);
-  //   // this.emit('end');
-  //   //gutil.log(e);
-  // })
   .pipe(gulp.dest('./public/'));
 });
 
